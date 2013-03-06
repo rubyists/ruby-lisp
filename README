@@ -1,0 +1,60 @@
+=========
+ruby-lisp
+=========
+
+
+
+Introduction
+============
+
+
+"So what is *ruby-lisp*?", you ask.  Well, it is a module for implementing nice
+Lisp features for use in Ruby.  Currently the only sub-module that exists is
+Lisp::Format, which implements Lisp's (format) function and its formatting
+language.  For people not familiar with this language, it is a very expressive
+string formatting language, much like sprintf()'s, but much more powerful.  It
+allows for iteration, case conversion, conditionals, and much more.  If you
+have ever felt stupid while creating a string iteratively, to print an array or
+some such, this is definitely for you!
+
+
+
+Documentation
+=============
+
+There is extensive documentation, both of the implementation and how to
+use the formatting language and its constructs, embedded in the source
+using RDoc.  To generate the documentation, simply run RDoc on
+format.rb::
+
+  $ rdoc -T kilmer format.rb
+
+You may specify whatever theme you like to the -T option (see the RDoc
+documentation), or even omit it to use the default.  kilmer is a nice theme,
+though, in my opinion.  RDoc can be found at http://rdoc.sourceforge.net/.
+
+
+
+Install
+=======
+
+See the file ``INSTALL`` located in the project directory.
+
+
+
+Copying
+=======
+
+See the file ``COPING`` located in the project directory.
+
+
+
+Project Website
+===============
+
+The project website for ruby-lisp is currently located at
+http://ned.rubyforge.org/.
+
+
+
+.. vim: set ft=rst sw=2 sts=2 ts=8:

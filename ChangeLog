@@ -1,0 +1,6 @@
+2003-12-08  Nikolai Weibull  <source@pcppopper.org>
+
+	* AUTHORS,ChangeLog,COPYING,README,setup.rb: New files.
+	* lib/: Created directory.
+	* format.rb,lib/format.rb: Moved file.
+	* *: Releasing version 0.2.
